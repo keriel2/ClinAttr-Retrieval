@@ -1,15 +1,3 @@
-"""
-make_figures.py
-
-Draws the three figures used in the manuscript:
-  fig_pipeline.pdf          construction and evaluation pipeline with an illustrative example
-  fig_ndcg_revised.pdf      revised Figure 1: ordinary retrieval effectiveness on full CUREv1
-  fig_pair_consistency.pdf  pair consistency with exact 95% intervals and reference levels
-
-Usage:  python3 make_figures.py          (needs matplotlib)
-Edit the DATA section if any number changes. Output files are written next to the script.
-"""
-
 import matplotlib
 
 matplotlib.use("Agg")
