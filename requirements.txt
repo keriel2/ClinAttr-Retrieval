@@ -1,0 +1,14 @@
+# Pin exact versions from `pip freeze` of the environment that produced the paper
+# before the first tagged release. Versions below are the ones known to be used or tested.
+transformers==4.49.0
+torch
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+openpyxl
+sentence-transformers
+bitsandbytes
+accelerate
+# retriever dependencies for the late-interaction model (see the script's `doctor` command)
