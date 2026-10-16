@@ -19,7 +19,7 @@ ClinAttr-CF is built from [CUREv1](https://huggingface.co/datasets/clinia/CUREv1
 | `tools/annotation/` | Human audit sheet builder and agreement script, with a practice workbook |
 | `paper/figures/` | Figure script and the figures used in the paper |
 | `DATA_SCHEMA.md` | Field definitions |
-| `MODELS.md` | Exact models, revisions, and inference settings |
+| `MODELS.md` | Model identifiers and inference settings |
 | `REPRODUCE.md` | Commands that regenerate the reported results |
 
 ## Quick start
