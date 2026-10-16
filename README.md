@@ -45,8 +45,8 @@ Testing whether a retriever or reranker changes its ranking when one clinically 
 
 ## Citation
 
-See `CITATION.cff`. A permanent identifier (Zenodo) is added at the first tagged release.
+See `CITATION.cff`. 
 
 ## Contact and corrections
 
-Open an issue for corrections. Corrections are published as new tagged versions with an entry in `CHANGELOG.md`. Maintainer: Henry Mukalazi Serugunda, Xiangtan University. Contact: TODO (add a public address before release).
+Open an issue for corrections. Corrections are published as new tagged versions with an entry in `CHANGELOG.md`. Maintainer: Henry Mukalazi Serugunda, Xiangtan University.
