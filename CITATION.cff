@@ -1,14 +1,39 @@
 cff-version: 1.2.0
-message: "If you use this collection or code, please cite it as below."
-title: "ClinAttr-CF: A Multilingual Clinical Counterfactual Test Collection for Evaluating Attribute-Sensitive Retrieval"
+message: >-
+  If you use the ClinAttr-CF collection, please cite this resource.
+  The dataset is licensed under CC BY-NC 4.0, while the accompanying
+  code is licensed separately under the MIT License.
+
+title: >-
+  ClinAttr-CF: A Multilingual Clinical Counterfactual Test Collection
+  for Evaluating Attribute-Sensitive Retrieval
+
 type: dataset
+
 authors:
   - family-names: Serugunda
     given-names: Henry Mukalazi
-    affiliation: Xiangtan University
-    # TODO: add co-authors and ORCID iDs as in the paper
+    affiliation: >-
+      School of Computer Science, Xiangtan University, Xiangtan, Hunan,
+      China; Department of Information Technology, School of Computing
+      and Informatics Technology, Makerere University, Kampala, Uganda
+
+  - family-names: Ouyang
+    given-names: Jianquan
+    affiliation: >-
+      School of Computer Science, Xiangtan University, Xiangtan, Hunan,
+      China; Chenjiang Laboratory, Chenzhou, Hunan, China
+
 repository-code: "https://github.com/keriel2/ClinAttr-Retrieval"
+url: "https://github.com/keriel2/ClinAttr-Retrieval"
+
 version: 0.1.0
-date-released: 2026-10-15
-license: MIT   # code; the pair files are CC BY-NC 4.0, see DATA_LICENSE.md
-# doi: TODO (Zenodo DOI, added at the first tagged release)
+date-released: 2026-10-16
+license: CC-BY-NC-4.0
+
+keywords:
+  - clinical information retrieval
+  - multilingual retrieval
+  - counterfactual evaluation
+  - attribute-sensitive retrieval
+  - test collection
