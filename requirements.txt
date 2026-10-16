@@ -1,14 +1,13 @@
-# Pin exact versions from `pip freeze` of the environment that produced the paper
-# before the first tagged release. Versions below are the ones known to be used or tested.
+# Environment used for the reported results (Python 3.10, CUDA 12.1)
+torch==2.4.1
 transformers==4.49.0
-torch
-numpy
-pandas
-scipy
-scikit-learn
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.13.1
+scikit-learn==1.6.1
+sentence-transformers==5.1.2
+accelerate==1.10.1
+bitsandbytes==0.48.2
+# Only for figures and annotation tools (not used by the main script):
 matplotlib
 openpyxl
-sentence-transformers
-bitsandbytes
-accelerate
-# retriever dependencies for the late-interaction model (see the script's `doctor` command)
