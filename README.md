@@ -49,4 +49,4 @@ See `CITATION.cff`.
 
 ## Contact and corrections
 
-Open an issue for corrections. Corrections are published as new tagged versions with an entry in `CHANGELOG.md`. Maintainer: Henry Mukalazi Serugunda, Xiangtan University.
+Open an issue on this repository for corrections. Maintainer: Henry Mukalazi Serugunda, School of Computer Science, Xiangtan University, Xiangtan, Hunan, China, and Department of Information Technology, Makerere University, Kampala, Uganda. Email: henry.serugunda@mak.ac.ug
