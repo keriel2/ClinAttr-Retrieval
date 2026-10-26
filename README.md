@@ -4,7 +4,7 @@ A multilingual clinical counterfactual test collection for evaluating attribute-
 
 ClinAttr-CF is built from [CUREv1](https://huggingface.co/datasets/clinia/CUREv1). Each pair keeps a real clinical passage unchanged and creates an edited copy that differs by one grounded span, for example a changed disease stage, dose, or negation, together with a query rewritten to fit the edited passage. A retriever is credited only when it prefers the original passage for the original query and reverses that preference for the edited query.
 
-> Status: the pairs are **machine-screened**, not human-adjudicated. See `DATA_SCHEMA.md` (`screening_status`, `human_adjudication`) and the paper's Limitations section.
+> Status: the pairs are **machine-screened**, not human-adjudicated. A small independent language-model audit of 60 pairs is in `audit/`; it is not a human validation. See `DATA_SCHEMA.md` (`screening_status`, `human_adjudication`) and the paper's Limitations section.
 
 ## What is in this repository
 
@@ -16,7 +16,8 @@ ClinAttr-CF is built from [CUREv1](https://huggingface.co/datasets/clinia/CUREv1
 | `scripts/exact_ci.py` | Exact (Clopper-Pearson) interval and exact binomial test against .25 |
 | `scripts/patch_portable_paths.py` | Replaces hard-coded server paths with environment variables |
 | `scripts/prepublish_check.sh` | Scans the working tree for secrets, absolute paths, and large files |
-| `tools/annotation/` | Human audit sheet builder and agreement script, with a practice workbook |
+| `tools/annotation/` | Sheet builder and agreement script used for the language-model audit (Section 5.5 of the paper), with a practice workbook |
+| `audit/` | Audit prompt, blank sheet, both models' responses, and a results summary |
 | `paper/figures/` | Figure script and the figures used in the paper |
 | `DATA_SCHEMA.md` | Field definitions |
 | `MODELS.md` | Model identifiers and inference settings |
